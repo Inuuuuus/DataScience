@@ -38,4 +38,4 @@ model = word2vec.Word2Vec(sentences, workers= num_workers, size= num_features, m
 
 model.init_sims(replace=True)
 
-# model.save('./output/')
+#
